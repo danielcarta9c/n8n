@@ -174,8 +174,17 @@ poi `git pull` e leggi il log. Per le Actions puoi usare i tool MCP
   push su `main` che modifica `next.json` (anche il **merge di una PR** che tocca
   una nota `_aiuto` in `next.json`) **fa partire un run**. Combinato con un
   file-trigger manuale → più run in coda → **più articoli pubblicati** (cascata).
-  In questa sessione è successo (art. 5471 codice vecchio + 5473 codice nuovo).
+  In una sessione è successo (art. 5471 codice vecchio + 5473 codice nuovo).
   Se devi fare merge + run: fai UNA cosa sola, o metti in conto la coda.
+  - ⚠️⚠️ **Peggio: fino al 2026-07-02 valeva anche per i push dei BRANCH** (il
+    trigger non filtrava su `main`; il diff di un force-push che "portava
+    dentro" un bump di `ops/run.trigger` bastava). Incidente: 2 run accidentali
+    da push di PR; uno ha creato il post doppione 5487 (topic piscine, codice
+    pre-A4) e il suo commit di stato è morto su `git add ops/articles.csv`
+    (il file non esisteva ancora sulla main checkouttata: il workflow era
+    quello del branch, il codice quello di main → versioni miste). Fix:
+    `branches: [main]` sul trigger push. NB: il run esegue SEMPRE il codice di
+    `main` ma il workflow YAML del ref pushato — occhio alle versioni miste.
 - **Annullare un run in coda**: `mcp__github__actions_run_trigger` con
   `method:"cancel_workflow_run"` FUNZIONA via MCP (il *dispatch* invece dà 403).
 - **Validare una FEATURE prima del merge**: il workflow fa `checkout ref: main`
