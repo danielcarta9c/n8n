@@ -240,8 +240,11 @@ poi `git pull` e leggi il log. Per le Actions puoi usare i tool MCP
   hung up". Per un restore-point usa un **branch** (es. `mvp1.1`), non un tag.
 - **Dispatch dei workflow via MCP/API → 403** ("Resource not accessible by
   integration"). Per lanciare un run usa il **file-trigger** (§35): commit su
-  `ops/run.trigger`. Un merge di PR via API **non** fa partire il workflow anche
-  se tocca i path-trigger: serve un commit che modifica `ops/run.trigger`.
+  `ops/run.trigger`. ⚠️ **SMENTITA (2026-07-02)** della vecchia nota "il merge
+  via API non fa partire il workflow": lo **squash-merge di una PR via API E'
+  un push su main** → se tocca `next.json` o `ops/run.trigger` **il run parte**
+  (successo col merge della PR #24 → run 19:40 → art. 5497). Regola pratica:
+  PR che toccano i path-trigger ⇒ metti in conto un run al merge.
 - **Squash-merge + continuare sullo STESSO branch ⇒ conflitti**: dopo aver
   squashato una PR, il branch diverge da `main`. Apri **un branch nuovo dalla
   `main` aggiornata** per ogni feature.
