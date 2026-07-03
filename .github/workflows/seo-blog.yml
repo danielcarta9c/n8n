@@ -18,6 +18,11 @@ on:
     - cron: "0 2 * * 1"
   workflow_dispatch:
   push:
+    # SOLO main: senza questo filtro qualunque push di un BRANCH che tocca i
+    # path sotto (anche nel diff di un force-push) faceva partire un run di
+    # PRODUZIONE (incidente 2026-07-02: post doppione 5487 da un push di PR).
+    branches:
+      - main
     paths:
       - "ops/run.trigger"
       - "next.json"
