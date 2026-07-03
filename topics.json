@@ -9,6 +9,18 @@
   ],
   "topics": [
     {
+      "slug": "autoconsumo-collettivo-condominio-fotovoltaico",
+      "focusKeyword": "autoconsumo collettivo condominio",
+      "title": "Autoconsumo Collettivo in Condominio: la Guida Essenziale",
+      "angle": "Gruppo di autoconsumo (simile alle CER) in condominio: un impianto fotovoltaico grande sul tetto del palazzo, a servizio dei singoli condomini. D'inverno il FV produce meno e viene assorbito quasi tutto dai carichi comuni del palazzo (pompa di calore, ascensore, luci, servizi); d'estate produce di più e l'energia immessa in rete viene autoconsumata VIRTUALMENTE dai condomini. Il GSE remunera l'energia venduta e riconosce gli incentivi sull'autoconsumo condiviso; ruolo del referente/responsabile del gruppo di autoconsumo. Vantaggi per i condomini, iter e requisiti. NB: tema fotovoltaico/autoconsumo, NON Conto Termico."
+    },
+    {
+      "slug": "pompa-di-calore-obiezioni-smantellate",
+      "focusKeyword": "obiezioni pompa di calore",
+      "title": "Pompa di Calore: Tutte le Obiezioni Smantellate, Guida Essenziale",
+      "angle": "Rispondiamo una per una alle obiezioni più comuni sulla pompa di calore. 1) RUMORE: unità esterna in condominio, distanze, EN 378, accorgimenti per stare nei limiti. 2) 'Non scalda abbastanza' per i termosifoni esistenti: come si raggiunge la temperatura di mandata necessaria ai caloriferi. 3) DELTA T sui termosifoni: perché si abbassa e come si risolve con un CIRCOLATORE SECONDARIO dedicato al circuito radiatori. Tono rassicurante e tecnico-pratico, per chi teme di passare alla pompa di calore. Incentivo di riferimento: Conto Termico 3.0."
+    },
+    {
       "slug": "pompa-di-calore-raffrescamento-estivo",
       "focusKeyword": "pompa di calore raffrescamento",
       "title": "La Pompa di Calore che Raffresca Casa d'Estate: Come Funziona",
@@ -115,18 +127,6 @@
       "focusKeyword": "ESCo pompa di calore",
       "title": "Perché Affidare la Pompa di Calore a una ESCo Certificata",
       "angle": "Differenza tra installatore, studio tecnico ed ESCo certificata UNI CEI 11352. Solo l'ESCo può essere Soggetto Responsabile CT 3.0, gestire la pratica GSE in modo diretto e garantire al cliente lo sconto in fattura sempre, senza incertezze sui tempi del GSE. Cosa rischia il cliente che si affida a chi non è ESCo: incentivo non riconosciuto, lavori sospesi, costi imprevisti."
-    },
-    {
-      "slug": "autoconsumo-collettivo-condominio-fotovoltaico",
-      "focusKeyword": "autoconsumo collettivo condominio",
-      "title": "Autoconsumo Collettivo in Condominio: la Guida Essenziale",
-      "angle": "Gruppo di autoconsumo (simile alle CER) in condominio: un impianto fotovoltaico grande sul tetto del palazzo, a servizio dei singoli condomini. D'inverno il FV produce meno e viene assorbito quasi tutto dai carichi comuni del palazzo (pompa di calore, ascensore, luci, servizi); d'estate produce di più e l'energia immessa in rete viene autoconsumata VIRTUALMENTE dai condomini. Il GSE remunera l'energia venduta e riconosce gli incentivi sull'autoconsumo condiviso; ruolo del referente/responsabile del gruppo di autoconsumo. Vantaggi per i condomini, iter e requisiti. NB: tema fotovoltaico/autoconsumo, NON Conto Termico."
-    },
-    {
-      "slug": "pompa-di-calore-obiezioni-smantellate",
-      "focusKeyword": "obiezioni pompa di calore",
-      "title": "Pompa di Calore: Tutte le Obiezioni Smantellate, Guida Essenziale",
-      "angle": "Rispondiamo una per una alle obiezioni più comuni sulla pompa di calore. 1) RUMORE: unità esterna in condominio, distanze, EN 378, accorgimenti per stare nei limiti. 2) 'Non scalda abbastanza' per i termosifoni esistenti: come si raggiunge la temperatura di mandata necessaria ai caloriferi. 3) DELTA T sui termosifoni: perché si abbassa e come si risolve con un CIRCOLATORE SECONDARIO dedicato al circuito radiatori. Tono rassicurante e tecnico-pratico, per chi teme di passare alla pompa di calore. Incentivo di riferimento: Conto Termico 3.0."
     },
     {
       "slug": "conto-termico-sostituzione-generatore-potenza",
