@@ -59,6 +59,10 @@
 
 ## Done log
 
+- **Pausa blog fino al 20/7** (`BLOG_START_DATE`, scelta PM): prima del 20/7 il
+  cron non genera dalla rotazione (escono i 2 articoli di prova gia' programmati);
+  un override `next.json` pubblica comunque. La scaletta riparte lun 20/7 da
+  "autoconsumo collettivo". Guardia inerte dopo la data; env-override per test.
 - **+8 nuovi topic (trend 2026) + taglio pro-vendita** (feedback PM, ricerca web):
   aggiunti a `topics.json`. Ordine (scelta PM): davanti 2 vecchi topic ancora in
   canna (autoconsumo 6 lug, obiezioni 13 lug), poi i nuovi dal **20 lug** (3a

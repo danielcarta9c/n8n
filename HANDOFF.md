@@ -112,6 +112,13 @@ merge PR #13/#15/#16/#18/#19. Risultato Rank Math: **88** (art. 5480).
 - **Publish programmato**: `patch_body.status = "future"` + `date_gmt =
   scheduledPublishGmt()` (prossime 09:00 UTC ad almeno 4h). Va online da solo,
   con finestra di veto. `WP_USER` deve avere diritti di pubblicazione (confermato).
+- **Pausa programmata** (`BLOG_START_DATE` in `generate.mjs`, default
+  `2026-07-20`): prima di quella data il cron NON genera dalla rotazione (finestra
+  per gli articoli gia' pianificati a mano); un override in `next.json` pubblica
+  COMUNQUE. Passata la data la guardia e' inerte. Impostata perche' il PM aveva
+  gia' 2 articoli di prova buoni programmati per le prime 2 settimane di luglio;
+  la scaletta riparte lun 20/7 da "autoconsumo collettivo". Per riattivare subito:
+  svuota la costante o `BLOG_START_DATE=""`. Override per test: env `BLOG_START_DATE`.
 - **Immagine in evidenza (B1)**: Claude compila `brief_immagine` col registro
   adatto all'articolo; `generateImage()` aggiunge lo stile fotografico fisso
   (persone di spalle/media distanza) e genera con OpenAI `gpt-image-1` quality

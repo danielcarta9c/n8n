@@ -42,6 +42,12 @@ const WP_BASE = "https://nove-c.com";
 // e autenticato al nostro sito; riduce i falsi positivi del WAF sull'API REST.
 const WP_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36";
 const MODEL = "claude-sonnet-4-6";
+// Ripartenza programmata del blog (YYYY-MM-DD, confronto in UTC). PRIMA di
+// questa data il run da rotazione NON genera: e' la finestra in cui escono gli
+// articoli gia' pianificati a mano. Un override esplicito (next.json) pubblica
+// COMUNQUE. Passata la data, la guardia e' inerte. Svuotare (stringa vuota) o
+// rimuovere quando non serve piu'.
+const BLOG_START_DATE = process.env.BLOG_START_DATE || "2026-07-20";
 // Template del post (Attributi articolo -> Template = "Blog Post (Nuovo)").
 // Valore = filename del template come esposto dalla REST API WP.
 const WP_POST_TEMPLATE = "single-blog-nuovo.php";
@@ -840,6 +846,15 @@ async function uploadFeaturedImage(pngBuffer, focusKeyword, slug) {
 // Orchestrazione
 // ---------------------------------------------------------------------------
 async function main() {
+  // Pausa programmata: fino a BLOG_START_DATE il cron NON genera dalla rotazione
+  // (finestra per gli articoli gia' pianificati a mano). Un override esplicito in
+  // next.json PASSA sempre: se Daniel forza un titolo, quello esce comunque.
+  const oggi = new Date().toISOString().slice(0, 10);
+  if (BLOG_START_DATE && oggi < BLOG_START_DATE && !readOverride()) {
+    console.log(`BLOG IN PAUSA fino al ${BLOG_START_DATE} (oggi ${oggi}): rotazione sospesa, escono gli articoli gia' pianificati. Un override in next.json pubblica comunque.`);
+    return;
+  }
+
   // B2 + A4 — una sola lettura del blog: alimenta anti-doppioni e correlati.
   // NON bloccante: se fallisce (es. anti-bot) si procede come prima di B2/A4.
   let posts = null;
