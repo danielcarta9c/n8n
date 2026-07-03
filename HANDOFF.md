@@ -92,6 +92,18 @@ merge PR #13/#15/#16/#18/#19. Risultato Rank Math: **88** (art. 5480).
   prompt: per pompe di calore/termico → riferimento CT 3.0 (D.M. 7/8/2025); per
   fotovoltaico/autoconsumo/CER/altro → quadro incentivante pertinente, senza
   forzare il CT. Paragrafi tenuti brevi (≤~110 parole) per la leggibilità Rank Math.
+- **Taglio PRO-VENDITA** (decisione PM): il blog **supporta la vendita** di Nove
+  C, non è divulgazione neutra. Il prompt istruisce a usare leve concrete
+  (risparmio €, valore immobile, urgenza normativa/incentivi) e portare al
+  contatto, restando corretto (niente allarmismo/dati inventati). "Non esagerare":
+  è una spinta *misurata*, non clickbait.
+- **Topic = leva editoriale + pro-vendita** (in `topics.json`, `angle` e `_regole`):
+  gli 8 topic aggiunti nel 2026 (raffrescamento, Case Green, mutuo green, valore
+  immobile, accumulo, FV+colonnina, colonnina condominio, add-on ribaltato) hanno
+  `angle` orientati alla vendita e caveat tecnici dal PM (es. raffrescamento =
+  SOSTITUIRE il generatore, non "aggiungere condizionatori in CT"; add-on caldaia
+  = anti-mito, conviene sostituire). Il `title` ora è il **titolo visibile**
+  (naturale), la power word la mette lo script nel titolo SEO.
 - **Segreti** (GitHub → Settings → Secrets → Actions): `ANTHROPIC_API_KEY`,
   `BRAVE_API_KEY`, `WP_USER` (= username WP, non email), `WP_APP_PASSWORD`
   (= Application Password di WordPress, non la password di login),

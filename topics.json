@@ -3,10 +3,71 @@
   "_regole": [
     "focusKeyword CORTA, 2-4 parole. Le keyword lunghe abbassano la densita' (impossibile ripeterle abbastanza) e allungano l'URL: entrambe fanno calare il punteggio Rank Math.",
     "Ogni focusKeyword DIVERSA dalle altre della lista: due articoli sulla stessa keyword competono tra loro (cannibalizzazione SEO).",
-    "Il 'title' deve contenere una POWER WORD italiana riconosciuta da Rank Math. Sicure perche' invariabili (maschile/femminile uguale): essenziale, efficace, indispensabile, incredibile, irresistibile, impeccabile. La lingua del sito WordPress deve essere Italiano, altrimenti Rank Math controlla contro la lista inglese.",
-    "'slug' e' la CHIAVE della rotazione tracciata (stato in ops/rotation-state.json): NON rinominarlo su un topic gia' pubblicato o si perde la traccia (verrebbe ripubblicato). Aggiungere/riordinare topic e' invece sicuro."
+    "Il 'title' e' il TITOLO VISIBILE dell'articolo (H1 in pagina e in home): scrivilo naturale, accattivante e orientato al beneficio. NON serve infilarci una power word ne' l'anno: la power word la mette lo script nel TITOLO SEO (il tag <title> per Google); {{year}} usalo solo dove l'anno aggiunge valore.",
+    "'slug' e' la CHIAVE della rotazione tracciata (stato in ops/rotation-state.json): NON rinominarlo su un topic gia' pubblicato o si perde la traccia (verrebbe ripubblicato). Aggiungere/riordinare topic e' invece sicuro.",
+    "TAGLIO EDITORIALE: il blog SUPPORTA LA VENDITA di Nove C, non e' divulgazione neutra. L'angle deve puntare su leve concrete (risparmio in euro, valore dell'immobile, urgenza di normativa/incentivi) e portare il lettore al contatto, restando tecnicamente corretto: niente allarmismo gratuito ne' promesse false."
   ],
   "topics": [
+    {
+      "slug": "autoconsumo-collettivo-condominio-fotovoltaico",
+      "focusKeyword": "autoconsumo collettivo condominio",
+      "title": "Autoconsumo Collettivo in Condominio: la Guida Essenziale",
+      "angle": "Gruppo di autoconsumo (simile alle CER) in condominio: un impianto fotovoltaico grande sul tetto del palazzo, a servizio dei singoli condomini. D'inverno il FV produce meno e viene assorbito quasi tutto dai carichi comuni del palazzo (pompa di calore, ascensore, luci, servizi); d'estate produce di più e l'energia immessa in rete viene autoconsumata VIRTUALMENTE dai condomini. Il GSE remunera l'energia venduta e riconosce gli incentivi sull'autoconsumo condiviso; ruolo del referente/responsabile del gruppo di autoconsumo. Vantaggi per i condomini, iter e requisiti. NB: tema fotovoltaico/autoconsumo, NON Conto Termico."
+    },
+    {
+      "slug": "pompa-di-calore-obiezioni-smantellate",
+      "focusKeyword": "obiezioni pompa di calore",
+      "title": "Pompa di Calore: Tutte le Obiezioni Smantellate, Guida Essenziale",
+      "angle": "Rispondiamo una per una alle obiezioni più comuni sulla pompa di calore. 1) RUMORE: unità esterna in condominio, distanze, EN 378, accorgimenti per stare nei limiti. 2) 'Non scalda abbastanza' per i termosifoni esistenti: come si raggiunge la temperatura di mandata necessaria ai caloriferi. 3) DELTA T sui termosifoni: perché si abbassa e come si risolve con un CIRCOLATORE SECONDARIO dedicato al circuito radiatori. Tono rassicurante e tecnico-pratico, per chi teme di passare alla pompa di calore. Incentivo di riferimento: Conto Termico 3.0."
+    },
+    {
+      "slug": "pompa-di-calore-raffrescamento-estivo",
+      "focusKeyword": "pompa di calore raffrescamento",
+      "title": "La Pompa di Calore che Raffresca Casa d'Estate: Come Funziona",
+      "angle": "La stessa pompa di calore che riscalda d'inverno raffresca in estate: un solo impianto per il comfort tutto l'anno, al posto di caldaia piu' condizionatori. PALETTO IMPORTANTE (equivoco frequente che ci fa perdere tempo al telefono): in Conto Termico 3.0 la logica e' SOSTITUIRE il generatore esistente, NON 'aggiungere condizionatori' sfruttando l'incentivo; l'eventuale aumento di potenza va giustificato ante operam secondo normativa e prassi. Spiega il funzionamento estate/inverno, il comfort di un unico sistema, il risparmio rispetto a gas piu' split separati, e conduci al sopralluogo Nove C. Tema pompe di calore -> riferimento CT 3.0."
+    },
+    {
+      "slug": "direttiva-case-green-appartamenti",
+      "focusKeyword": "direttiva case green",
+      "title": "Direttiva Case Green: Cosa Rischia il Tuo Appartamento e Come Muoverti",
+      "angle": "La Direttiva Case Green (EPBD) come leva: l'Italia e' in ritardo (prima scadenza saltata, procedura d'infrazione UE aperta) ma la rotta e' segnata. Onesto ma orientato all'azione: chiarisci che NON esiste l'obbligo di portare il singolo appartamento in classe E (approccio a portafoglio nazionale), MA gli immobili in classe F/G perderanno valore di mercato e saranno sempre piu' difficili da vendere e affittare. Messaggio: muoviti ORA che gli incentivi sono ancora pieni, riqualifica con la pompa di calore e proteggi il valore di casa. Leva paura/urgenza + valore immobile -> contatto Nove C. Tema termico -> CT 3.0."
+    },
+    {
+      "slug": "mutuo-green-riqualificazione-pompa-di-calore",
+      "focusKeyword": "mutuo green",
+      "title": "Mutuo Green: Come Abbassare la Rata Riqualificando Casa",
+      "angle": "Leva economica poco conosciuta. Passando alla pompa di calore la classe energetica (APE) sale molto: l'APE misura l'energia primaria NON rinnovabile al mq e, con l'elettrico di rete (circa meta' da fonti rinnovabili) e uno SCOP di circa 3,6, la quota non rinnovabile diventa piccolissima -> spesso si arriva in classe A o B, magari con gli infissi che quasi tutti hanno gia'. Con la casa in classe A/B si accede al MUTUO GREEN: sconto sul tasso (TAN indicativamente da -0,10% a -0,50%) oppure rinegoziazione/surroga del mutuo esistente presentando il nuovo APE. Fai un esempio numerico su un mutuo tipo: di quanto scende la rata mensile e quanto si risparmia sui 20-25 anni (ordine di grandezza: oltre 15.000 euro di interessi). Doppio risparmio: bolletta piu' rata del mutuo. Verifica i tassi green vigenti prima di citarli. Porta al preventivo Nove C. Tema termico -> CT 3.0."
+    },
+    {
+      "slug": "valore-immobile-riqualificazione-energetica",
+      "focusKeyword": "valore immobiliare casa",
+      "title": "Quanto Aumenta il Valore della Casa dopo la Riqualificazione Energetica",
+      "angle": "Quanto vale davvero riqualificare. Un immobile che sale di 2-3 classi energetiche (es. da G a A/B con pompa di calore ed eventuale fotovoltaico) aumenta di prezzo sul mercato e si vende o affitta prima, mentre le classi F/G sono destinate a svalutarsi (spinta della Direttiva Case Green). Ragiona su ordini di grandezza dell'incremento di valore, minori costi di gestione, maggiore appetibilita' in vendita e affitto. Messaggio pro-vendita: la riqualificazione non e' un costo ma un investimento che si ripaga nel valore di casa. Porta al contatto Nove C. Tema termico -> CT 3.0."
+    },
+    {
+      "slug": "bonus-accumulo-batteria-fotovoltaico",
+      "focusKeyword": "bonus accumulo",
+      "title": "Batteria di Accumulo per il Fotovoltaico: Conviene Aggiungerla",
+      "angle": "Chi ha gia' il fotovoltaico (o lo sta installando) si chiede se conviene aggiungere la batteria di accumulo. Spiega a cosa serve (usare di sera l'energia prodotta di giorno, alzare l'autoconsumo dal circa 30% al 70-80%), quando conviene davvero in base ai consumi e allo stile di vita, e gli incentivi o detrazioni vigenti per l'accumulo. IMPORTANTE: verifica la misura in vigore e le aliquote reali, non citare percentuali non confermate. Collega all'abbinamento con la pompa di calore (piu' autoconsumo per riscaldare/raffrescare). Tema fotovoltaico/autoconsumo -> quadro incentivante pertinente, NON forzare il Conto Termico. Porta al dimensionamento Nove C."
+    },
+    {
+      "slug": "fotovoltaico-colonnina-ricarica-auto",
+      "focusKeyword": "fotovoltaico e colonnina",
+      "title": "Fotovoltaico e Colonnina di Ricarica: l'Impianto che Alimenta Casa e Auto",
+      "angle": "Chi compra l'auto elettrica ha bisogno della colonnina (wallbox) a casa: conviene installarla INSIEME al fotovoltaico. Vantaggi: ricarichi l'auto con il tuo sole (costo per km bassissimo) e, installando wallbox e FV nello stesso intervento, si applica l'IVA agevolata al 10% invece del 22%. Spiega il dimensionamento del fotovoltaico per coprire casa piu' auto, quando aggiungere l'accumulo, e gli incentivi wallbox vigenti (verifica quali sono attivi). Tema fotovoltaico -> quadro incentivante pertinente, NON forzare il Conto Termico. Porta al preventivo Nove C."
+    },
+    {
+      "slug": "colonnina-ricarica-condominio",
+      "focusKeyword": "colonnina condominio",
+      "title": "Colonnina di Ricarica in Condominio: Come Installarla Davvero",
+      "angle": "Installare la colonnina di ricarica per l'auto elettrica in CONDOMINIO, il caso di chi non ha il box privato. Spiega il diritto a installarla sul proprio posto auto, l'iter con l'assemblea condominiale (comunicazione preventiva, quando serve il via libera, gestione dei contatori e della potenza), le soluzioni con contatore dedicato, e gli incentivi vigenti. Segmento condominio e amministratori, intento pratico. Tema mobilita' elettrica -> quadro incentivante pertinente, NON forzare il Conto Termico. Porta a Nove C per la soluzione condominiale."
+    },
+    {
+      "slug": "aggiungere-pompa-di-calore-a-caldaia",
+      "focusKeyword": "pompa di calore e caldaia",
+      "title": "Aggiungere la Pompa di Calore alla Caldaia? Perche' Conviene Sostituirla",
+      "angle": "Anti-mito, stessa logica dell'articolo 'la pompa di calore ibrida non conviene'. Molti pensano di TENERE la caldaia a gas e AGGIUNGERE una pompa di calore per prendere l'incentivo spendendo poco. Spiega perche' in pratica non funziona: per l'ibrido su caldaia esistente servirebbe una macchina certificata a lavorare in sintonia con QUELLA caldaia, con dichiarazione del produttore (di fatto le caldaie a condensazione non sono progettate per questo), oppure una dichiarazione di un tecnico certificato molto complessa e senza prassi consolidata ne' moduli GSE dedicati, piu' garanzie non banali su logiche di controllo e modulazione delle portate. Conclusione: si fa prima e meglio a SOSTITUIRE con una pompa di calore full electric (o un'ibrida nuova gia' certificata di fabbrica), con lo sconto in fattura del CT 3.0. Porta al sopralluogo Nove C. Tema termico -> CT 3.0."
+    },
     {
       "slug": "sostituzione-caldaia-pompa-di-calore-villa",
       "focusKeyword": "pompa di calore in villa",
@@ -66,18 +127,6 @@
       "focusKeyword": "ESCo pompa di calore",
       "title": "Perché Affidare la Pompa di Calore a una ESCo Certificata",
       "angle": "Differenza tra installatore, studio tecnico ed ESCo certificata UNI CEI 11352. Solo l'ESCo può essere Soggetto Responsabile CT 3.0, gestire la pratica GSE in modo diretto e garantire al cliente lo sconto in fattura sempre, senza incertezze sui tempi del GSE. Cosa rischia il cliente che si affida a chi non è ESCo: incentivo non riconosciuto, lavori sospesi, costi imprevisti."
-    },
-    {
-      "slug": "autoconsumo-collettivo-condominio-fotovoltaico",
-      "focusKeyword": "autoconsumo collettivo condominio",
-      "title": "Autoconsumo Collettivo in Condominio: la Guida Essenziale",
-      "angle": "Gruppo di autoconsumo (simile alle CER) in condominio: un impianto fotovoltaico grande sul tetto del palazzo, a servizio dei singoli condomini. D'inverno il FV produce meno e viene assorbito quasi tutto dai carichi comuni del palazzo (pompa di calore, ascensore, luci, servizi); d'estate produce di più e l'energia immessa in rete viene autoconsumata VIRTUALMENTE dai condomini. Il GSE remunera l'energia venduta e riconosce gli incentivi sull'autoconsumo condiviso; ruolo del referente/responsabile del gruppo di autoconsumo. Vantaggi per i condomini, iter e requisiti. NB: tema fotovoltaico/autoconsumo, NON Conto Termico."
-    },
-    {
-      "slug": "pompa-di-calore-obiezioni-smantellate",
-      "focusKeyword": "obiezioni pompa di calore",
-      "title": "Pompa di Calore: Tutte le Obiezioni Smantellate, Guida Essenziale",
-      "angle": "Rispondiamo una per una alle obiezioni più comuni sulla pompa di calore. 1) RUMORE: unità esterna in condominio, distanze, EN 378, accorgimenti per stare nei limiti. 2) 'Non scalda abbastanza' per i termosifoni esistenti: come si raggiunge la temperatura di mandata necessaria ai caloriferi. 3) DELTA T sui termosifoni: perché si abbassa e come si risolve con un CIRCOLATORE SECONDARIO dedicato al circuito radiatori. Tono rassicurante e tecnico-pratico, per chi teme di passare alla pompa di calore. Incentivo di riferimento: Conto Termico 3.0."
     },
     {
       "slug": "conto-termico-sostituzione-generatore-potenza",

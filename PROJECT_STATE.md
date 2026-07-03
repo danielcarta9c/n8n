@@ -52,13 +52,26 @@
 2. ~~A3 quality gate~~ = fatto in versione "reporting" (verifyArticle stampa la
    checklist pre-publish); eventuale evoluzione = rigenerazione automatica
    sotto soglia. ~~A4~~ → PR #21 (promosso da opzionale: doppione reale dal rodaggio).
-3. **Nuovi topic** (idee sul tavolo): CER, fotovoltaico condominio, accumulo,
-   colonnine ricarica, bandi regionali; raffrescamento estivo, PdC in appartamento,
-   "Conto Termico 3.0 come funziona" (pilastro). Aggiungere in `topics.json`.
+3. ~~Nuovi topic~~ FATTO: +8 topic trend 2026 in cima a `topics.json` (vedi Done
+   log). Idee ancora sul tavolo per il futuro: CER approfondita, PdC in
+   appartamento, "Conto Termico 3.0 come funziona" (pilastro), bandi regionali.
 4. **Bug/feature dal rodaggio**: raccogliere quanto emerge dall'uso reale.
 
 ## Done log
 
+- **+8 nuovi topic (trend 2026) + taglio pro-vendita** (feedback PM, ricerca web):
+  aggiunti a `topics.json`. Ordine (scelta PM): davanti 2 vecchi topic ancora in
+  canna (autoconsumo 6 lug, obiezioni 13 lug), poi i nuovi dal **20 lug** (3a
+  settimana: raffrescamento) per non accavallare la coda gia' programmata.
+  Angoli orientati alla VENDITA con leve concrete (risparmio, valore immobile,
+  urgenza normativa), non divulgazione. Lista: raffrescamento estivo (con
+  paletto "sostituire, non aggiungere condizionatori in CT"); direttiva Case
+  Green (paura=leva, valore immobile); mutuo green (APE su/PdC -> classe A/B ->
+  surroga, ~15k risparmio); valore immobiliare post-riqualificazione; bonus
+  accumulo batteria FV; fotovoltaico + colonnina (IVA 10%); colonnina in
+  condominio; add-on caldaia ribaltato (anti-mito: conviene sostituire). Prompt
+  di sistema ritoccato (misura): taglio pro-vendita senza allarmismo/dati falsi.
+  `_regole` aggiornata (title = titolo visibile naturale; power word nel titolo SEO).
 - **Fix "Guida 2026" ovunque** (PR #24, feedback PM): {{year}} tolto da 12
   titoli su 13 in topics.json (resta solo su "Quanto si Risparmia", dove
   tariffe/bollette lo giustificano; slug invariati = rotazione intatta);
