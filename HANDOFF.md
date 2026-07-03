@@ -199,6 +199,15 @@ poi `git pull` e leggi il log. Per le Actions puoi usare i tool MCP
   prodotto), installatore VIETATO salvo articoli proprio su installazione/
   cantiere; `brief_immagine` ora stampato nel log del run per vedere subito
   se i soggetti tornano monotoni.
+- **Due titoli diversi, non confonderli** (bug pagato, segnalato dal PM): il
+  post WP ha (1) il **titolo VISIBILE** = H1 in pagina/home, e (2) il **titolo
+  SEO** = tag `<title>` che legge Google (`rank_math_title`). Vanno tenuti
+  separati: il visibile e' `parsed.h1` (titolo naturale del topic, capitalizzato);
+  il SEO e' keyword-led (`buildSeoTitle`, inizia con la focus keyword). Da
+  quando le keyword sono minuscole, `patch_body.title` usava per errore il
+  titolo SEO -> H1 in home tipo "pompa di calore condominio: Guida..." (brutto).
+  Fix: `title = capFirst(parsed.h1)`. NON rimettere il titolo SEO come titolo
+  visibile "per la SEO": la keyword sta gia' nel `<title>`, e' li' che conta.
 - **Git tag NON si pushano** su questo remoto (proxy del sandbox): "remote end
   hung up". Per un restore-point usa un **branch** (es. `mvp1.1`), non un tag.
 - **Dispatch dei workflow via MCP/API → 403** ("Resource not accessible by

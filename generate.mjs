@@ -638,7 +638,12 @@ function parseArticle(message, related = []) {
     // ma Daniel ha la finestra del mattino per cestinarlo. Mai publish immediato.
     status: "future",
     date_gmt: scheduledPublishGmt(),
-    title: parsed.titolo_seo || parsed.h1 || "Articolo Nove C",
+    // TITOLO VISIBILE (H1 in pagina + home) = h1 NATURALE del topic (capitalizzato,
+    // leggibile), NON il titolo SEO keyword-led. Da quando le focus keyword sono
+    // minuscole, usare titolo_seo qui produceva H1 tipo "pompa di calore condominio:
+    // Guida..." (bug segnalato dal PM). Il titolo keyword-led resta dove serve:
+    // SOLO nel tag <title> (rank_math_title), che e' quello che legge Google.
+    title: capFirst((parsed.h1 || "").trim()) || parsed.titolo_seo || "Articolo Nove C",
     slug: slug,
     template: WP_POST_TEMPLATE,
     categories: [3],
