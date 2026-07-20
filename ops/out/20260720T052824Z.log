@@ -1,0 +1,31 @@
+Articoli live sul blog: 15
+Topic (rotazione tracciata): autoconsumo collettivo condominio
+Template: numbers-first
+Brave Search: ok
+Articoli correlati: candidati insufficienti -> fallback sui 2 link interni fissi
+Claude: articolo generato
+Diagnostica SEO: {"wordCount":2012,"h2Count":8,"kwCount":18,"kwInFirst":true,"kwInH2":true,"kwDensity":"0.89","extLinks":3,"intLinks":3,"relatedAvailable":0,"relatedUsed":0,"slugLen":33,"maxParaWords":79,"powerWordInTitle":true,"warnings":[]}
+VERIFICA REGOLE SEO (pre-publish):
+  [OK] Titolo SEO inizia con la focus keyword
+  [OK] Titolo SEO contiene una power word (Rank Math IT)
+  [OK] Focus keyword nella meta description
+  [OK] Focus keyword nei primi 200 caratteri
+  [OK] Focus keyword in almeno un H2
+  [OK] Densita' focus keyword 0.5-2.5%
+  [OK] Lunghezza articolo >= 1500 parole
+  [OK] Almeno 4 H2
+  [OK] Slug <= 60 caratteri
+  [OK] Almeno 1 link esterno
+  [OK] Almeno 1 link interno
+  [OK] Paragrafi brevi (piu' lungo: 79 parole, max 120)
+REGOLE: 12/12 ok - tutto a posto
+Brief immagine: Un condominio residenziale di medie dimensioni con il tetto interamente coperto da pannelli fotovoltaici, ripreso dall'esterno in una giornata estiva luminosa. L'immagine trasmette il senso di un palazzo moderno e autosufficiente, con le finestre degli appartamenti che raccontano la vita quotidiana di chi abita all'interno e beneficia dell'energia pulita prodotta in cima all'edificio.
+Immagine in evidenza generata: media id 5513
+Articolo creato (future): id 5514, publish previsto 2026-07-21T09:00:00 UTC
+Rank Math: meta impostati
+Registro storico aggiornato: ops/articles.csv
+Rotazione: "autoconsumo-collettivo-condominio-fotovoltaico" segnato come usato.
+
+Fatto. Articolo programmato (rivedi o cestina entro la mattina):
+  Admin:     https://nove-c.com/wp-admin/post.php?post=5514&action=edit
+  Anteprima: https://nove-c.com/?p=5514&preview=true
