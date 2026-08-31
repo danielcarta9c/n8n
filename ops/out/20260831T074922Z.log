@@ -1,0 +1,31 @@
+Articoli live sul blog: 18
+Topic (rotazione tracciata): direttiva case green
+Template: comparison
+Brave Search: ok
+Articoli correlati: candidati insufficienti -> fallback sui 2 link interni fissi
+Claude: articolo generato
+Diagnostica SEO: {"wordCount":1727,"h2Count":7,"kwCount":12,"kwInFirst":true,"kwInH2":true,"kwDensity":"0.69","extLinks":2,"intLinks":3,"relatedAvailable":0,"relatedUsed":0,"slugLen":37,"maxParaWords":100,"powerWordInTitle":true,"warnings":[]}
+VERIFICA REGOLE SEO (pre-publish):
+  [OK] Titolo SEO inizia con la focus keyword
+  [OK] Titolo SEO contiene una power word (Rank Math IT)
+  [OK] Focus keyword nella meta description
+  [OK] Focus keyword nei primi 200 caratteri
+  [OK] Focus keyword in almeno un H2
+  [OK] Densita' focus keyword 0.5-2.5%
+  [OK] Lunghezza articolo >= 1500 parole
+  [OK] Almeno 4 H2
+  [OK] Slug <= 60 caratteri
+  [OK] Almeno 1 link esterno
+  [OK] Almeno 1 link interno
+  [OK] Paragrafi brevi (piu' lungo: 100 parole, max 120)
+REGOLE: 12/12 ok - tutto a posto
+Brief immagine: Un appartamento luminoso in un condominio italiano degli anni '70-'80, con finestre che lasciano intravedere un interno accogliente e caldo: la scena trasmette il contrasto tra il patrimonio edilizio vecchio e il potenziale di comfort e valore che una riqualificazione energetica può restituire ai suoi abitanti.
+Immagine in evidenza generata: media id 5528
+Articolo creato (future): id 5529, publish previsto 2026-09-01T09:00:00 UTC
+Rank Math: meta impostati
+Registro storico aggiornato: ops/articles.csv
+Rotazione: "direttiva-case-green-appartamenti" segnato come usato.
+
+Fatto. Articolo programmato (rivedi o cestina entro la mattina):
+  Admin:     https://nove-c.com/wp-admin/post.php?post=5529&action=edit
+  Anteprima: https://nove-c.com/?p=5529&preview=true
