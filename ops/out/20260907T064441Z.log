@@ -1,0 +1,34 @@
+Articoli live sul blog: 19
+Topic (rotazione tracciata): mutuo green
+Template: problem-solution
+Brave Search: ok
+Articoli correlati (candidati link interni): 2
+  - Direttiva Case Green: Cosa Rischia il Tuo Appartamento e Come Muoverti -> https://nove-c.com/blog/direttiva-case-green-rischio-immobile/
+  - La Pompa di Calore che Raffresca Casa d’Estate: Come Funziona -> https://nove-c.com/blog/pompa-di-calore-raffrescamento/
+Claude: articolo generato
+Diagnostica SEO: {"wordCount":1886,"h2Count":8,"kwCount":28,"kwInFirst":true,"kwInH2":true,"kwDensity":"1.48","extLinks":2,"intLinks":2,"relatedAvailable":2,"relatedUsed":2,"slugLen":46,"maxParaWords":83,"powerWordInTitle":true,"warnings":[]}
+VERIFICA REGOLE SEO (pre-publish):
+  [OK] Titolo SEO inizia con la focus keyword
+  [OK] Titolo SEO contiene una power word (Rank Math IT)
+  [OK] Focus keyword nella meta description
+  [OK] Focus keyword nei primi 200 caratteri
+  [OK] Focus keyword in almeno un H2
+  [OK] Densita' focus keyword 0.5-2.5%
+  [OK] Lunghezza articolo >= 1500 parole
+  [OK] Almeno 4 H2
+  [OK] Slug <= 60 caratteri
+  [OK] Almeno 1 link esterno
+  [OK] Almeno 1 link interno
+  [OK] Almeno 2 link interni ad articoli correlati reali (usati 2/2)
+  [OK] Paragrafi brevi (piu' lungo: 83 parole, max 120)
+REGOLE: 13/13 ok - tutto a posto
+Brief immagine: Un soggiorno luminoso e ben arredato di un appartamento moderno, caldo e accogliente, con grandi finestre che lasciano entrare la luce naturale e un ambiente che trasmette comfort domestico e benessere. La scena evoca il valore e la qualità di una casa riqualificata, in cui vivere bene costa meno.
+Immagine in evidenza generata: media id 5531
+Articolo creato (future): id 5532, publish previsto 2026-09-08T09:00:00 UTC
+Rank Math: meta impostati
+Registro storico aggiornato: ops/articles.csv
+Rotazione: "mutuo-green-riqualificazione-pompa-di-calore" segnato come usato.
+
+Fatto. Articolo programmato (rivedi o cestina entro la mattina):
+  Admin:     https://nove-c.com/wp-admin/post.php?post=5532&action=edit
+  Anteprima: https://nove-c.com/?p=5532&preview=true
